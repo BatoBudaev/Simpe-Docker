@@ -1,0 +1,8 @@
+version: "3"
+services:
+  server:
+    build: ../5_task
+  webserver:
+    build: .
+    ports:
+      - "80:8080"
